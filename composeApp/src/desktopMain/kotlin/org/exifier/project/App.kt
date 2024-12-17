@@ -25,17 +25,7 @@ fun App() {
             Button(onClick = { showContent = !showContent }) {
                 Text("Тыкни меня")
             }
-//            AnimatedVisibility(showContent) {
-//                val greeting = remember { Greeting().greet() }
-//                Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-//                    Image(painterResource(Res.drawable.compose_multiplatform), null)
-//                    Text("Compose: $greeting")
-//                }
-//            }
-            //i need to show text "hello world"
-            AnimatedVisibility(showContent) {
-                Text("Hello World")
-            }
+            // here will be some useful stuff
         }
     }
 }
