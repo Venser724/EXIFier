@@ -28,6 +28,9 @@ kotlin {
         }
     }
 }
+dependencies {
+
+}
 
 
 compose.desktop {
